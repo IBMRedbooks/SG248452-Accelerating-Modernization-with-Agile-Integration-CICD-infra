@@ -3,11 +3,11 @@ node {
     // Specify the micro-service name
     applicationName="ace-db2-test-01"
     // Specify the name and path of the repository where the application source is located
-    //applicationSourceRepoName="ace-db2-app-source-02"
-    applicationSourceRepoName="ace-nodb2-source-02"
-    applicationSourceRepoPath="tquigly"
+    //applicationSourceRepoName="SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-db2"
+    applicationSourceRepoName="SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-standalone"
+    applicationSourceRepoPath="<PUT_YOUR_GIT_USERNAME_HERE>"
     // Specify the username that will authenticat to github
-    gitUserName="tquigly"
+    gitUserName="<PUT_YOUR_GIT_USERNAME_HERE>"
     // Specify the Helm chart name
     helmChartName="ibm-ace-server-icip-prod"
     helmChartVersion="1.1.2-icp4i-jenkins-01"
