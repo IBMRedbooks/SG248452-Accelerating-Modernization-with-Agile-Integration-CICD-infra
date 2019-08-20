@@ -7,6 +7,20 @@ The purpose of the project is give an example "Continuous Delivery" capability f
 
 The repository contains only build information and scripts, not source code. Source code for the ACE application is stored in a different source repository, ensuring that changes to the pipeline repository and the source do not affect one another.
 
+There are two options with this pipeline:
+1. Use the full example, where the App Connect Enterprise integration connects to the DB2 database. In this case the variable in the Jenkins file must be set to:
+
+applicationSourceRepoName="SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-db2"
+
+2. Use the standalone example, which deploys an App Connect Enterprise integration that can work independenntly of any other systems. In this case the variable in the Jenkinsfile must be set to:
+
+applicationSourceRepoName="SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-standalone"
+
+For reference, the git repositories for both of the application source code examples can be found at the following urls:
+
+https://github.com/IBMRedbooks/SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-db2/blob/master/README.md
+
+https://github.com/IBMRedbooks/SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-standalone/blob/master/README.md
 
 
 # Overview
