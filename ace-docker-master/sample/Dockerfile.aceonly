@@ -1,0 +1,11 @@
+# Build integration image FROM a base image with a specific fix pack
+FROM mycluster.icp:8500/icp4i/ace-base-11004:latest
+
+
+USER aceuser
+RUN env
+
+COPY ace-docker-master/sample/bars_aceonly /home/aceuser/bars
+
+
+RUN ace_compile_bars.sh
