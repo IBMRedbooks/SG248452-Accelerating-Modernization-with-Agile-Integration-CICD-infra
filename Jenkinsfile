@@ -3,8 +3,8 @@ node {
     // Specify the micro-service name
     applicationName="ace-db2-test-01"
     // Specify the name and path of the repository where the application source is located
-    //applicationSourceRepoName="SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-db2"
-    applicationSourceRepoName="SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-standalone"
+    //applicationSourceRepoName="SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-db2"
+    applicationSourceRepoName="SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-standalone"
     applicationSourceRepoPath="<PUT_YOUR_GIT_USERNAME_HERE>"
     // Specify the username that will authenticat to github
     gitUserName="<PUT_YOUR_GIT_USERNAME_HERE>"
