@@ -1,4 +1,4 @@
-# SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-infra
+# SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-infra
 Build files for pipeline to deploy ACE microservice that retrieves information from a DB2 table.
 
 Demonstration "Continuous Delivery" pipeline for IBM App Connect Enterprise micro-services.
@@ -10,17 +10,17 @@ The repository contains only build information and scripts, not source code. Sou
 There are two options with this pipeline:
 1. Use the full example, where the App Connect Enterprise integration connects to the DB2 database. In this case the variable in the Jenkins file must be set to:
 
-applicationSourceRepoName="SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-db2"
+applicationSourceRepoName="SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-db2"
 
 2. Use the standalone example, which deploys an App Connect Enterprise integration that can work independenntly of any other systems. In this case the variable in the Jenkinsfile must be set to:
 
-applicationSourceRepoName="SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-standalone"
+applicationSourceRepoName="SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-standalone"
 
 For reference, the git repositories for both of the application source code examples can be found at the following urls:
 
-https://github.com/IBMRedbooks/SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-db2/blob/master/README.md
+https://github.com/IBMRedbooks/SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-db2
 
-https://github.com/IBMRedbooks/SG248452-Moving-Integration-to-the-Cloud-with-Agile-Integration-Architecture-CICD-appsrc-standalone/blob/master/README.md
+https://github.com/IBMRedbooks/SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-standalone
 
 
 # Overview
