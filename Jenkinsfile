@@ -5,7 +5,7 @@ node {
     // Specify the name and path of the repository where the application source is located
     //applicationSourceRepoName="SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-db2"
     applicationSourceRepoName="SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-standalone"
-    applicationSourceRepoPath="<PUT_YOUR_GIT_USERNAME_HERE>"
+    applicationSourceRepoPath="IBMRedbooks"
     // Specify the username that will authenticat to github
     gitUserName="<PUT_YOUR_GIT_USERNAME_HERE>"
     // Specify the Helm chart name
