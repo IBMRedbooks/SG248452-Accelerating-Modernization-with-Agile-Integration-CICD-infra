@@ -6,7 +6,7 @@ node {
     //applicationSourceRepoName="SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-db2"
     applicationSourceRepoName="SG248452-Accelerating-Modernization-with-Agile-Integration-CICD-appsrc-standalone"
     applicationSourceRepoPath="IBMRedbooks"
-    // Specify the username that will authenticat to github
+    // Specify the username that will authenticate to github
     gitUserName="<PUT_YOUR_GIT_USERNAME_HERE>"
     // Specify the Helm chart name
     helmChartName="ibm-ace-server-icip-prod"
