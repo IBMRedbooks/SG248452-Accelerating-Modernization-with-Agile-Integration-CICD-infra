@@ -31,7 +31,7 @@ mkdir ${homeDir}/${sourceDir}
 cd ${homeDir}/${sourceDir}
 
 # Perform git clone to pull down the ACE application source to server
-git clone https://${gituser}:${token}@github.ibm.com/${repoPath}/${repo}.git
+git clone https://${gituser}:${token}@github.com/${repoPath}/${repo}.git
 
 if [ $? != 0 ]; then
    echo "git clone failed"
