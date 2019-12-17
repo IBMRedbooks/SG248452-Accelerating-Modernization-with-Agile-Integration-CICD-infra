@@ -9,7 +9,7 @@ part_number="part_number=120"
 product_name="product_name=pencil"
 quantity="quantity=1000"
 
-/var/lib/jenkins/cloudctl-login.sh
+/var/lib/jenkins/oc-login.sh
 port=$(kubectl describe service ace-jenkins-release-ibm-ace-server-icip-prod  -n icp4i | grep ace-http | grep -v https | grep NodePort | tr -s " " | cut -d' ' -f3 | cut -d/ -f1)
 
 nodeIP=$(kubectl get configmap -n kube-public ibmcloud-cluster-info   -o jsonpath="{.data.cluster_address}")
