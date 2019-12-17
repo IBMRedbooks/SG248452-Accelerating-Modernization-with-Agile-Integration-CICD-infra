@@ -55,7 +55,7 @@ if [ $? != 0 ]; then
 fi
 
 # In the test environment where this demonstration was developed the OpenShift session periodically logs out
-# To work around this issue a script was ran to login to an Openshift session.
+# To work around this issue a script was ran to login to an OpenShift session.
 # In a live implementation an alternative solution to this problem is advised
 echo "Log into OpenShift"
 /var/lib/jenkins/oc-login.sh
