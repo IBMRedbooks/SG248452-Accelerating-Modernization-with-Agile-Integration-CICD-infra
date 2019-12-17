@@ -1,5 +1,5 @@
 #
-/var/lib/jenkins/cloudctl-login.sh
+/var/lib/jenkins/oc-login.sh
 port=$(kubectl describe service ace-jenkins-release-ibm-ace-server-icip-prod  -n icp4i | grep webui | grep NodePort | tr -s " " | cut -d' ' -f3 | cut -d/ -f1)
 
 nodeIP=$(kubectl get configmap -n kube-public ibmcloud-cluster-info   -o jsonpath="{.data.proxy_address}")
