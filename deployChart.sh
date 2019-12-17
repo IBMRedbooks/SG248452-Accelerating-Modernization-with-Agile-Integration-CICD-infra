@@ -6,7 +6,7 @@
 # 3. Sets the image name and tag in Variables
 # 4. Makes a copy of the values.yaml to use for this deployment, using the BUILD_ID as identifier
 # 5. Uses sed commands to update the values file created for this build with image name and tag
-# 6. Logs into ICP cloudctl (required for development purposes)
+# 6. Logs into OpenShift (required for development purposes)
 # 7. Runs helm upgrade command to install the helm chart
 
 echo "Helm update or install (if required) to namespace ${NAMESPACE}"
@@ -54,11 +54,11 @@ if [ $? != 0 ]; then
    exit 78
 fi
 
-# In the test environment where this demonstration was developed the cloudctl session periodically logs out
-# To work around this issue a script was ran to login to a cloudctl session.
+# In the test environment where this demonstration was developed the OpenShift session periodically logs out
+# To work around this issue a script was ran to login to an Openshift session.
 # In a live implementation an alternative solution to this problem is advised
-echo "Log into cloudctl"
-/var/lib/jenkins/cloudctl-login.sh
+echo "Log into OpenShift"
+/var/lib/jenkins/oc-login.sh
 
 
 # We run the upgrade command with the -i flag to make it install the chart if it does not already exist
